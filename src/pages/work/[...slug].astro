@@ -7,6 +7,8 @@ import ContactCTA from "../../components/ContactCTA.astro";
 import Hero from "../../components/Hero.astro";
 import Icon from "../../components/Icon.astro";
 import Pill from "../../components/Pill.astro";
+import GitIcons from "../../components/IconsLenguage/GitIcons.astro";
+import SiteIcons from "../../components/IconsLenguage/SiteIcons.astro";
 
 interface Props {
 	entry: CollectionEntry<"work">;
@@ -62,17 +64,22 @@ const { Content } = await entry.render();
 						class="flex flex-row justify-center text-center gap-3 items-center"
 					>
 						<a
-							class="bg-purple-800 text-white w-20 h-11 rounded-3xl items-center justify-center pt-[10px] cursor-pointer"
+							class="bg-purple-800 text-white text-lg w-32 h-12 rounded-3xl items-center justify-center flex gap-2"
 							href={entry.data.git}
 							target="_blank"
-							rel="noopener noreferrer">Github</a
+							rel="noopener noreferrer"
 						>
+							<GitIcons />Github
+						</a>
 
 						<a
-							class="bg-purple-800 text-white w-20 h-11 rounded-3xl items-center justify-center pt-[10px]"
+							class="bg-purple-800 text-white text-lg w-32 h-12 rounded-3xl items-center justify-center flex gap-2"
 							href={entry.data.enlace}
 							target="_blank"
-							rel="noopener noreferrer">Site</a>
+							rel="noopener noreferrer"
+						>
+							<SiteIcons />Site
+						</a>
 					</div>
 				</div>
 			</main>
@@ -153,7 +160,11 @@ const { Content } = await entry.render();
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
 	}
-
+	@media (width <= 628px) {
+		.details {
+			display: contents;
+		}
+	}
 	@media (min-width: 50em) {
 		.back-link {
 			display: block;
