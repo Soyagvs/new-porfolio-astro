@@ -5,7 +5,7 @@ img: /assets/stock-1.png
 img_alt: Image to profile the project
 description: |
 tags:
-  - Astro
+  - React
   - Tailwind
   - API
 ---
