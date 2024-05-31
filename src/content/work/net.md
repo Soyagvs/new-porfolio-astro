@@ -8,6 +8,8 @@ tags:
   - Astro
   - Tailwind
   - Design
+git: https://github.com/Soyagvs/netflix-copy-astro
+enlace: https://copy-nfx.vercel.app
 ---
 In this project, I focused on replicating the popular Netflix layout using modern technologies like Astro and Tailwind CSS. The site is hosted on Vercel, ensuring fast deployment and optimized performance.
 

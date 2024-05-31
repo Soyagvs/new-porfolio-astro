@@ -8,6 +8,8 @@ tags:
   - React
   - Tailwind
   - API
+git: https://github.com/Soyagvs/shopping-cart-reactjs
+enlace: https://shopping-guitar.vercel.app
 ---
 In this project I developed a store website with shopping logic, using React and CSS. The site is hosted on Vercel, ensuring fast deployment and optimized performance.
 

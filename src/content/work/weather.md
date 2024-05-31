@@ -8,6 +8,8 @@ tags:
   - React
   - API
   - Css
+git: https://github.com/Soyagvs/app-clima-react
+enlace: https://climacity-api.vercel.app/
 ---
 In this project, I developed a weather website using React, CSS, and an API to get the weather data. The site is hosted on Vercel, which ensures fast deployment and optimized performance.
 

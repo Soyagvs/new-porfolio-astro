@@ -8,6 +8,8 @@ tags:
   - Astro
   - Tailwind
   - Personalized design
+git: https://github.com/Soyagvs/project-web-anubis
+enlace: https://anubis-web.vercel.app
 ---
 In this project, I developed a website with a custom pet design, using modern technologies such as Astro and Tailwind CSS. The site is hosted on Vercel, which ensures fast deployment and optimized performance.
 
