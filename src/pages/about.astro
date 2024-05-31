@@ -1,68 +1,65 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Hero from '../components/Hero.astro';
-import Skills from '../components/Skills.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Skills from "../components/Skills.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout
+	title="About | Agustin Martinez"
+	description="About Agustin Martinez Lorem Ipsum"
+>
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself."
-			>
-			</Hero>
+			/>
 
 			<section>
 				<h2 class="section-title">Presentation</h2>
 				<div class="content">
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Hello, I am Agustín Martínez, a passionate web developer
+						specialized in frontend. I am 25 years old. My passion
+						for creation and design leads me to constantly look for
+						new ways to improve the user experience through
+						intuitive and attractive interfaces. I am always looking
+						to learn and grow in this ever-evolving world and I am
+						excited to share my work with you.
 					</p>
-				</div>
-			</section>
-
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
 				</div>
 			</section>
 
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<Skills/>
+					<Skills />
 				</div>
 			</section>
 		</main>
-
 	</div>
 </BaseLayout>
 
-<style>
+<style>	
 	.about {
 		display: flex;
 		flex-direction: column;
 		gap: 3.5rem;
 	}
-
+	
 	img {
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}
-
+	
 	section {
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
 		color: var(--gray-200);
 	}
-
+	
 	.section-title {
 		grid-column-start: 1;
 		font-size: var(--text-xl);
