@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
-import Skills from "../components/Skills.astro";
+import SVG from "../components/SVG.astro";
 ---
 
 <BaseLayout
 	title="About | Agustin Martinez"
-	description="About Agustin Martinez Lorem Ipsum"
+	description="description of my portfolio and skills that I currently use"
 >
 	<div class="stack gap-20">
 		<main class="wrapper about">
@@ -29,37 +29,41 @@ import Skills from "../components/Skills.astro";
 					</p>
 				</div>
 			</section>
-
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<Skills />
-				</div>
-			</section>
+			<h2 class="section-title">Skills</h2>
+			<div class="justify-center items-center justify-items-center aa">
+				<SVG />
+			</div>
 		</main>
 	</div>
 </BaseLayout>
 
-<style>	
+<style>
+	@media (width <= 770px) {
+		.aa {
+			justify-content: center;
+			align-items: center;
+			display: flex;
+		}
+	}
 	.about {
 		display: flex;
 		flex-direction: column;
 		gap: 3.5rem;
 	}
-	
+
 	img {
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}
-	
+
 	section {
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
 		color: var(--gray-200);
 	}
-	
+
 	.section-title {
 		grid-column-start: 1;
 		font-size: var(--text-xl);
