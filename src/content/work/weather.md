@@ -1,7 +1,7 @@
 ---
 title: Weather App
 publishDate: 2024-01-06 00:00:00
-img: /assets/stock-2.png
+img: /assets/stock2.png
 img_alt: Image to profile the project.
 description: |
 tags:
