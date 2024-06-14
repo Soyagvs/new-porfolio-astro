@@ -7,7 +7,7 @@ description: |
 tags:
   - Astro
   - Tailwind
-  - Personalized design Gym
+  - Design Gym
 git: https://github.com/Soyagvs/gym-page-astro
 enlace: https://gym-astro.vercel.app
 ---
