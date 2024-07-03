@@ -7,7 +7,7 @@ description: |
 tags:
   - React
   - Tailwind
-  - Public
+  - Hooks
 git: https://github.com/Soyagvs/sorteo-react
 enlace: https://sorteogratis.vercel.app
 ---
