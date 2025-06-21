@@ -61,24 +61,26 @@ const { Content } = await entry.render();
 						<Content />
 					</div>
 					<div
-						class="flex flex-row justify-center text-center gap-3 items-center"
+						class="flex justify-start text-center gap-10 items-center"
 					>
 						<a
-							class="bg-purple-800 text-white text-lg w-32 h-12 rounded-3xl items-center justify-center flex gap-2"
+							class="flex gap-2"
 							href={entry.data.git}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<GitIcons />Github
+							<GitIcons />
+							<p>Github</p>
 						</a>
 
 						<a
-							class="bg-purple-800 text-white text-lg w-32 h-12 rounded-3xl items-center justify-center flex gap-2"
+							class="flex gap-2"
 							href={entry.data.enlace}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<SiteIcons />Site
+							<SiteIcons />
+							<p>Site</p>
 						</a>
 					</div>
 				</div>

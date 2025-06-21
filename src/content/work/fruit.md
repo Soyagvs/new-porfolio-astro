@@ -9,7 +9,7 @@ tags:
   - Css
   - Colors
 git: https://github.com/Soyagvs/fruit-3d-animation
-enlace: https://fruit-3d.vercel.app/
+enlace: https://fruit-3d-animation.vercel.app/
 ---
 In this project, I focused on making a site with 3D animations using HTML, CSS and Javascript. The site is hosted on Vercel, ensuring fast deployment and optimized performance.
 

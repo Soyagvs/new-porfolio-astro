@@ -9,7 +9,7 @@ tags:
   - Css
   - API
 git: https://github.com/Soyagvs/music-player
-enlace: https://musicplayer-agvs.vercel.app/
+enlace: https://astroplayer.vercel.app/
 ---
 In this project, I developed a music player using modern technologies such as HTML, CSS and JavaScript, consuming an external API for obtaining data. The application is hosted on Vercel, ensuring fast deployment and optimized performance.
 

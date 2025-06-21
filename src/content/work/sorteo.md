@@ -9,7 +9,7 @@ tags:
   - Tailwind
   - Hooks
 git: https://github.com/Soyagvs/sorteo-react
-enlace: https://sorteogratis.vercel.app
+enlace: https://mysorteo.vercel.app
 ---
 I have developed an exciting project dedicated to giveaways, using React along with Tailwind CSS and hooks to optimize the experience. This project allowed me to explore advanced web development techniques, ensuring a modern and responsive interface that adapts perfectly to any device. 
 
